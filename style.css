@@ -42,7 +42,7 @@ a:hover{
     border-radius:2rem;
 
 }
-.new-btn h5, .shared-with-me-link i, .shared-with-me-link p{
+.new-btn h5, .shared-with-me-link i, .shared-with-me-link p, .quick-access p{
     color: #75787a;
 }
 .left-links{
@@ -57,4 +57,10 @@ border-bottom-right-radius: 2rem;
 .left-links:active{
     background-color: #e7f0fe;
 }
+.quick-access h5, .quick-access h6{
+    color: #474747;
+}
 
+.fa-stream{
+    color:#4285f4;
+}
