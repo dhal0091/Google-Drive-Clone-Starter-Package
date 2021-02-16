@@ -1,0 +1,60 @@
+a:hover{
+    text-decoration: none;
+}
+.search-input{
+    background-color: #f1f3f4;
+    border: none;
+    border-radius: 0.4rem;
+    width:35rem;
+    padding: 0.6rem 2.5rem;
+    outline: none;
+}
+.input-group{
+    position: relative;
+}
+.search-input:focus{
+    -webkit-box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.52); 
+    box-shadow: -0px 5px 10px -6px rgba(0,0,0,0.52);   
+}
+.fa-search{
+    position: absolute;
+    top: 0.8rem;
+    left:0.8rem;
+    color:#5f6368;
+}
+.user-image{
+    height: 2rem;
+    border-radius: 50%;
+}
+.fa-question-circle,.fa-cog,.fa-bars{
+    font-size: 1.3rem;
+    color:#5f6368;
+
+}
+/* .left-links a{
+    text-decoration: none;
+} */
+.new-btn{
+    width: 9rem;
+    box-shadow: -1px 0px 10px -5px rgba(0,0,0,0.44);
+    -webkit-box-shaow: -1px 0px 10px -5px rgba(0,0,0,0.44);
+    -moz-box-shadow: -1px 0px 10px -5px rgba(0,0,0,0.44);
+    border-radius:2rem;
+
+}
+.new-btn h5, .shared-with-me-link i, .shared-with-me-link p{
+    color: #75787a;
+}
+.left-links{
+    width:200px;
+padding: 0.5rem 2rem 0.5rem 0.5rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+}
+.left-links:hover{
+    background-color: #f0f3f4;
+}
+.left-links:active{
+    background-color: #e7f0fe;
+}
+
